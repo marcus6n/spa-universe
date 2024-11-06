@@ -31,3 +31,23 @@
   /* 160% line height */
   line-height: 1.75rem;
 }
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  #universe-content {
+    margin-left: 0;
+    padding: 0 1.5rem;
+
+    max-width: 100%;
+  }
+
+  #universe-content h1 {
+    font-size: 2.25rem;
+  }
+
+  #universe-content p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}

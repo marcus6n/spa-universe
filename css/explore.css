@@ -1,32 +1,53 @@
 #explore {
-    background-image: url("../assets/mountains-universe-3.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-  
+  background-image: url("../assets/mountains-universe-3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#explore-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: 100vh;
+  margin-left: 6.375rem;
+
+  max-width: 50%;
+
+  position: relative;
+}
+
+#explore-content h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+
+  font-weight: bold;
+}
+
+#explore-content p {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
   #explore-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    height: 100vh;
-    margin-left: 6.375rem;
-  
-    max-width: 50%;
-  
-    position: relative;
+    margin-left: 0;
+    padding: 0 1.5rem;
+    
+    max-width: 100%;
   }
-  
+
   #explore-content h1 {
-    font-size: 3rem;
-    margin-bottom: 2rem;
-  
-    font-weight: bold;
+    margin-top: 2rem;
+    font-size: 2.25rem;
   }
-  
+
   #explore-content p {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
+}
