@@ -2,6 +2,10 @@ header {
     display: flex;
     align-items: center;
     padding: 2.5rem 4.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Valor alto para garantir que o header fique por cima */
 }
 
 header img {
@@ -11,7 +15,6 @@ header img {
 nav {
     display: flex;
     justify-content: space-between;
-
     gap: 2rem;
 }
 
@@ -20,7 +23,6 @@ nav a {
     font-weight: 600;
     color: #C4C4CC;
     text-decoration: none;
-
     transition: color 0.2s;
 }
 
