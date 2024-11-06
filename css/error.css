@@ -1,0 +1,22 @@
+#error {
+    background-image: url("../assets/mountains-universe-1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    height: 100vh;
+
+    position: relative;
+}
+
+#error h1 {
+    font-size: 4rem;
+
+    font-weight: bold;
+}
