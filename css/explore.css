@@ -1,0 +1,32 @@
+#explore {
+    background-image: url("../assets/mountains-universe-3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  #explore-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    margin-left: 6.375rem;
+  
+    max-width: 50%;
+  
+    position: relative;
+  }
+  
+  #explore-content h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  
+    font-weight: bold;
+  }
+  
+  #explore-content p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
